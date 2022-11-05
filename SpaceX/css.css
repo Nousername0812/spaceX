@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    /* border: 1px solid red; */
+}
+
+header {
+    border: 1px solid #000;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+}
+
+.rockets_center {
+    display: flex;
+    /* border: 2px solid blue; */
+}
+
+.rockets_list_links {
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.about_list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.about_list_links {
+    text-decoration: none;
+    padding: 0 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #808080;
+}
+
+/* БЛОК Section */
+.section_h1 {
+    padding-top: 122px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section_p {
+    padding: 26px 40%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.earth_pic {
+    padding-top: 30px;
+    width: 100%;
+}
+
+/* БЛОК FOOTER */
+.footer_mega {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_mega_left {
+    padding-top: 492px;
+}
+
+.footer_h1_Falcon {
+    padding-right: 45%;
+    padding-bottom: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    /* or 34px */
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.footer_measurements {
+    display: flex;
+    margin: 0 -30px;
+}
+
+
+.footer_measurements_left {
+    list-style-type: none;
+}
+
+.footer_measurements_right {
+    list-style-type: none;
+}
+
+.measurements_lists {
+    padding: 11px 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179.69%;
+    /* or 32px */
+    color: #FFFFFF;
+}
+
+span {
+    color: #808080;
+    ;
+}
+
+.h1_unmatched {
+    padding-right: 50%;
+    padding-top: 221px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.p_unmatched {
+    padding-top: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+/* САМАЯ НИЖНЯЯ ЧАСТЬ. Контакты */
+.contacts {
+    margin: 189px auto;
+}
+
+conacts_flex_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_spacex_bottom {
+    margin: 0 auto 44px;
+    display: block;
+}
+
+.social_list {
+    display: flex;
+    margin: 0 18% 28px;
+
+
+}
+
+.social_items {
+    list-style-type: none;
+    padding: 0 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.under_social {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #808080;
+}
+
+.button_contact {
+    margin: 30px 39%;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 20px 86px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.a_bottom {
+    text-decoration: none;
+}
